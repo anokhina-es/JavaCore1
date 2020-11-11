@@ -5,6 +5,6 @@ public class Task3 {
         String s = "JAVA";
         for(int i=1;i<11;i++){
             System.out.println(s);
-            }
+        }
     }
 }
