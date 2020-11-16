@@ -33,7 +33,6 @@ public class Task1 {
                 default:
                     System.out.println("Неизвестная страна");
                     break;
-
             }
             city = c.nextLine();
         }
