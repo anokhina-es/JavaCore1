@@ -8,11 +8,9 @@ public class Task2 {
         while (true){
             Double nb1 = n.nextDouble();
             Double nb2 = n.nextDouble();
-            if(nb2==0){
+            if(nb2==0)
                break;
-            }
-            Double div = nb1 / nb2;
-            System.out.println(div);
+            System.out.println(nb1 / nb2);
         }
     }
 }
