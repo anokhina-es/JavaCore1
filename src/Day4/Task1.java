@@ -26,12 +26,13 @@ public class Task1 {
             if(k>8) c+=1;
             if (k==1) d+=1;
         }
+        System.out.println("Веедено число "+n+". Сгенерирован следующий массив: ");
         System.out.println(Arrays.toString(array));
-        System.out.println("Длина массива:"+ array.length);
-        System.out.println("Количество чисел больше 8:"+ c);
-        System.out.println("Количество чисел равных 1:"+ d);
-        System.out.println("Количество четных чисел:"+ a);
-        System.out.println("Количество нечетных чисел:"+ b);
-        System.out.println("Сумма всех элементов массива:"+ sum);
+        System.out.println("Длина массива: "+ array.length);
+        System.out.println("Количество чисел больше 8: "+ c);
+        System.out.println("Количество чисел равных 1: "+ d);
+        System.out.println("Количество четных чисел: "+ a);
+        System.out.println("Количество нечетных чисел: "+ b);
+        System.out.println("Сумма всех элементов массива: "+ sum);
     }
 }
