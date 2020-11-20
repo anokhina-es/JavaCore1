@@ -13,7 +13,7 @@ public class Task1 {
         int k=0;
         Random r = new Random();
 
-        for(int i=0;i<n;i++){
+        for(int i=0;i<array.length;i++){
             array[i]= r.nextInt(10);
             k=array[i];
             sum+=k;
