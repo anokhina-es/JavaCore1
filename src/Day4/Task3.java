@@ -17,7 +17,7 @@ public class Task3 {
                 System.out.print(matrix[i][j]+" ");
             }
             System.out.println();
-            if(sum>maxSum) {
+            if(sum>=maxSum) {
                 maxSum=sum;
                 maxSumIndex = i;
             }
