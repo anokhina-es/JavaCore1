@@ -6,6 +6,7 @@ public class Task3 {
     public static void main(String[] args) {
         Random r = new Random();
         int maxSum=0;
+        int maxSumIndex=0;
         int[][] matrix = new int[12][8];
         System.out.println("Matrix: ");
         for(int i=0; i<matrix.length; i++){
@@ -18,9 +19,11 @@ public class Task3 {
             System.out.println();
             if(sum>maxSum) {
                 maxSum=sum;
+                maxSumIndex = i;
             }
         }
         System.out.println();
         System.out.println(maxSum);
+        System.out.println(maxSumIndex);
     }
 }
