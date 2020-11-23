@@ -18,7 +18,7 @@ public class Task4 {
         }
         for(int i=2; i<arr.length; i++){
             sum=arr[i]+arr[i-1]+arr[i-2];
-            if(sum>maxSum) {
+            if(sum>=maxSum) {
                 maxSum=sum;
                 maxSumIndex = i-2;
                 a=arr[i-2];
